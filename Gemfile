@@ -5,10 +5,11 @@ gem 'rails', '3.2.9'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+gem 'sqlite3', '~>1.3.7'
+#gem 'sqlite3-ruby', '1.3.7', :require => 'sqlite2'
 gem 'therubyracer'
 gem 'execjs'
-
+gem 'pg'
 
 # Gems used only for assets and not required
 # in production environments by default.
